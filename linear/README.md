@@ -1,5 +1,5 @@
 # linear - a python vector/matrix package
-Just some text.
+This python package includes classes and functions for working with vectors and matrices.
 
 ## Installation
 To install with pip, simply do
@@ -18,8 +18,8 @@ There are two classes in linear: the vector class and the matrix class.
 ### Vectors
 Declare a vector simply by arguing its components. For example:
 ```
->> vector(3,5,4,7,5)
-<3, 5, 4, 7, 5>
+vector(3,5,4,7,5)
+>> <3, 5, 4, 7, 5>
 ```
 The vector class has several attributes designed for ease of use:
 - `vector.components`: python list containing the vector's components.
@@ -48,7 +48,7 @@ The package includes the following functions for vector operations:
 Declare matrices by entering the rows as individual lists, e.g.
 ```
 matrix([3,5,1],[2,-1,-1],[3,5,0])
->>> [   3.000     5.000     1.000  ]
+>>  [   3.000     5.000     1.000  ]
     [   2.000    -1.000    -1.000  ]
     [   3.000     5.000     0.000  ]
 
@@ -74,5 +74,3 @@ Other functions for working with matrices:
  - `least_squares(A, x)`: Find the least squares solution to Ax=b. Returns both the least-square solution and its error.
  - `in_null(A, x)`: Check if x is in the null space of A. Returns True/False.
  - `in_col(A, x)`: Check if x is in the column space of A. Returns True/False.
-
-## Examples
