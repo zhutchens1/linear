@@ -9,5 +9,5 @@ setup(name='linear',
       url="https://github.com/zhutchens1/linear",
       author="Zackary L. Hutchens",
       license='MIT',
-      packages=['linear']
+      packages=['linear'],
       zip_safe=False)
